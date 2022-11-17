@@ -1,24 +1,17 @@
 #include <iostream>
 #include <cmath>
+#include <iomanip>
+
 using namespace std;
-
-double saaaaske(double s) {
-	double a = sqrt(4 * s / sqrt(3));
-	return a;
-
-}
-double narutoooo(double n) {
-	double m = sqrt(2 * pow(n, 2));
-		return m;
+double f(double x) {
+	double y;
+	y = sqrt(4 * x / sqrt(3));
+	return y;
 }
 
-
-int main() {
-	double o,g,l;
-	cin >> o;
-	g= saaaaske(o);
-	l = narutoooo(g);
-	cout << g << endl;
-	cout << l << endl;
-	return 0;
+int main()
+{
+	double s;
+	cin >> s;
+	cout << f(s) << endl;
 }
