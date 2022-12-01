@@ -4,7 +4,7 @@ int main()
 {
 double x, s, f;
 int k, d;
-cin » k » x;
+cin >> k >> x;
 f = x * x * x;
 d = 1;
 s = 0;
@@ -13,6 +13,6 @@ d *= i;
 s += d * f;
 f *= x * x;
 }
-cout « s;
+cout << s;
 return 0;
 }
